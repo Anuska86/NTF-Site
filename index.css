@@ -5,6 +5,8 @@ body {
   margin: 0;
 }
 
+/*Header*/
+
 header {
   background-color: #5f29a3;
   padding: 45px 0 45px 0;
@@ -32,6 +34,13 @@ section {
   padding: 45px 0 45px 0;
 }
 
+/*Container*/
+
+.container {
+  margin: auto;
+  width: 620px;
+}
+
 /*Fonts*/
 
 .roboto {
@@ -40,6 +49,19 @@ section {
   font-weight: 400, 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+/*Links*/
+
+a {
+  color: #ef5839;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
 }
 
 /*Images*/
@@ -51,6 +73,13 @@ section {
 }
 
 .crypto-coin {
+  border: 1px solid #5f29a3;
+  border-radius: 6px;
+  width: 400px;
+}
+
+.seven-items {
+  margin-top: 15px;
   border: 1px solid #5f29a3;
   border-radius: 6px;
   width: 400px;
