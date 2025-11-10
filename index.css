@@ -17,6 +17,10 @@ h1 {
   font-size: 36px;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 h3 {
   color: #d0aaff;
   font-size: 20px;
@@ -41,5 +45,13 @@ section {
 /*Images*/
 
 .nike-sneakers {
-  width: 100%;
+  border: 1px solid #5f29a3;
+  border-radius: 6px;
+  width: 400px;
+}
+
+.crypto-coin {
+  border: 1px solid #5f29a3;
+  border-radius: 6px;
+  width: 400px;
 }
