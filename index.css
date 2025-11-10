@@ -5,11 +5,30 @@ body {
   margin: 0;
 }
 
+/*LAYOUT*/
 /*Header*/
 
 header {
-  background-color: #5f29a3;
+  background-color: #8c8060;
   padding: 45px 0 45px 0;
+}
+
+/*Sections*/
+
+section {
+  padding: 45px 0 45px 0;
+}
+
+#crypto-section {
+  background-color: #757153;
+  color: whitesmoke;
+}
+
+/*Container*/
+
+.container {
+  margin: auto;
+  width: 620px;
 }
 
 /*H*/
@@ -26,19 +45,6 @@ h2 {
 h3 {
   color: #d0aaff;
   font-size: 20px;
-}
-
-/*Section*/
-
-section {
-  padding: 45px 0 45px 0;
-}
-
-/*Container*/
-
-.container {
-  margin: auto;
-  width: 620px;
 }
 
 /*Fonts*/
@@ -67,20 +73,27 @@ a:active {
 /*Images*/
 
 .nike-sneakers {
-  border: 1px solid #5f29a3;
+  border: 1px solid #8c8060;
   border-radius: 6px;
-  width: 400px;
+  width: 300px;
 }
 
 .crypto-coin {
-  border: 1px solid #5f29a3;
+  border: 1px solid #8c8060;
   border-radius: 6px;
-  width: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .seven-items {
-  margin-top: 15px;
-  border: 1px solid #5f29a3;
+  border: 1px solid #8c8060;
   border-radius: 6px;
-  width: 400px;
+  width: 300px;
+  height: 300px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
