@@ -1,11 +1,15 @@
+/*BASE*/
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: #2b283a;
   margin: 0;
+  line-height: 23px;
 }
 
 /*LAYOUT*/
+
 /*Header*/
 
 header {
@@ -81,15 +85,15 @@ a:active {
 .crypto-coin {
   border: 1px solid #8c8060;
   border-radius: 6px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .seven-items {
   border: 1px solid #8c8060;
   border-radius: 6px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .images-container {
@@ -98,10 +102,46 @@ a:active {
   align-items: flex-start;
 }
 
+/*Buttons*/
+
+.btn-dark,
+.btn-mid,
+.btn-light {
+  padding: 10px 19px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-dark {
+  background-color: #757153;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #a1936c;
+  color: #131418;
+}
+
+.btn-light {
+  background-color: #c3c7be;
+  color: #757153;
+}
+
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover,
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
 /*Footer*/
 
 footer {
   color: #8c8060;
-  padding: 16px 16px 16px 16px;
+  padding: 16px;
   text-align: center;
 }
