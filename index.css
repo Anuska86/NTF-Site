@@ -22,6 +22,32 @@ header {
   box-shadow: 0 0 20px #00ffff;
 }
 
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0.85em 0;
+  display: block;
+}
+
+nav a:hover,
+nav a:active {
+  color: #d4b44c;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
 /*Sections*/
 
 section {
@@ -79,19 +105,6 @@ h3 {
   font-weight: 400, 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-}
-
-/*Links*/
-
-a {
-  color: #ef5839;
-  text-decoration: none;
-  margin-right: 5px;
-}
-
-a:hover,
-a:active {
-  color: #d4b44c;
 }
 
 /*Images*/
