@@ -168,9 +168,10 @@ h3 {
 
 .images-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: nowrap;
+  gap: 20px;
 }
 
 /*Buttons*/
